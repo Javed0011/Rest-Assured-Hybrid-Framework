@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------------------------------------------------------  
+  Git Commands
+-------------------------------------------------------------------------------------------------------------------------------
+
+1. git init - creates empty local repository
+
+First Configuration
+{
+2. git config --global user.name "Javed Nadaf"
+3. git config --global user.email "javednadaf072@gmail.com"
+}
+
+4.git status - displays the files which need to be added to index (staging)
+5.git add -A --adds all the files to the staging
+  git add filename.java -- used to add a particular file
