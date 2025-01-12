@@ -1,0 +1,29 @@
+1. Create Maven Project
+2. Add Dependencies
+	Rest assured
+	Jason path - rest assured
+	org.jason	
+	org.testng
+	com.github.scribejava
+	json-schema-validator
+	Java faker - GitHub - if we want to generate fake data
+	extentreports
+	POI
+	poi-ooxml
+Help> Marketplace> Install TestNG
+	
+3. Create Folder Structure
+4. Create Routes.java - contains URL
+5. Create User Endpoints.java - CRUD method implementation (Create Read Update Delete)
+6. Create Test Case
+7. Create Data driven test
+	Excel Sheet data
+	ExcelUtility
+	Data Providers
+8.Roports
+	Extent Report utility
+	Create TestNG.xml file 
+9.Add Logs
+	Log4J2 Dependency
+	Log4J2.xml
+	
