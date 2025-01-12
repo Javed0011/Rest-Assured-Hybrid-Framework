@@ -27,5 +27,9 @@ Help> Marketplace> Install TestNG
 	Log4J2 Dependency
 	Log4J2.xml
 10.Properties File 
-	
+11.Running Tests from CMD
+	Add Pluggins in pom
+		Maven surefire plugin
+		Maven compiler plugin
+
 	
