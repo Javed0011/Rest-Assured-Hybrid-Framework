@@ -22,13 +22,13 @@ public class ExtentReportManager implements ITestListener {
 	String repName;
 
 	public void onStart(ITestContext testContext) {
-		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// time stamp
+		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 		repName = "Test-Report - " + timeStamp + ".html";
 
-		sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName); // specify location of the report
+		sparkReporter = new ExtentSparkReporter(".\\reports\\" + repName); 
 
-		sparkReporter.config().setDocumentTitle("RestAssuredAutomation Project"); // Title of report
-		sparkReporter.config().setReportName("Pet Store Users API"); // name of the report
+		sparkReporter.config().setDocumentTitle("RestAssuredAutomation Project"); 
+		sparkReporter.config().setReportName("Pet Store Users API"); 
 		sparkReporter.config().setTheme(Theme.DARK);
 
 		extent = new ExtentReports();
@@ -37,7 +37,7 @@ public class ExtentReportManager implements ITestListener {
 		extent.setSystemInfo("Operating System", System.getProperty("os.name"));
 		extent.setSystemInfo("User Name", System.getProperty("user.name"));
 		extent.setSystemInfo("Environemnt", "QA");
-		extent.setSystemInfo("user", "pavan");
+		extent.setSystemInfo("user", "Javed");
 	}
 
 	public void onTestSuccess(ITestResult result) {

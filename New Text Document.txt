@@ -1,3 +1,4 @@
+https://github.com/Javed0011/Rest-Assured-Hybrid-Framework.git
 -------------------------------------------------------------------------------------------------------------------------------  
   Git Commands
 -------------------------------------------------------------------------------------------------------------------------------
@@ -13,3 +14,10 @@ First Configuration
 4.git status - displays the files which need to be added to index (staging)
 5.git add -A --adds all the files to the staging
   git add filename.java -- used to add a particular file
+
+6.git status 
+7.git commit -m "First Commit"
+
+8.git remote add origin "URL" -- establish connection between local and GitHub
+
+9.git push -u origin master
