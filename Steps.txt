@@ -26,4 +26,6 @@ Help> Marketplace> Install TestNG
 9.Add Logs
 	Log4J2 Dependency
 	Log4J2.xml
+10.Properties File 
+	
 	
