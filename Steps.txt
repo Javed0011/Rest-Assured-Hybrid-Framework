@@ -1,3 +1,41 @@
+Project Structure
+
+project-root
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   ├── api
+│   │   │   │   ├── endpoints
+│   │   │   │   │   └── UserEndPoints.java
+│   │   │   │   └── payload
+│   │   │   │       └── User.java
+│   │   │   └── utilities
+│   │   │       ├── ConfigReader.java
+│   │   │       ├── ExcelUtils.java
+│   │   │       └── LogHelper.java
+│   │   └── resources
+│   │       └── config.properties
+│   ├── test
+│   │   ├── java
+│   │   │   ├── runners
+│   │   │   │   └── TestRunner.java
+│   │   │   ├── stepDefinitions
+│   │   │   │   ├── CreateUserStepDefinitions.java
+│   │   │   │   ├── DeleteUserStepDefinitions.java
+│   │   │   │   └── Hooks.java
+│   │   │   └── testData
+│   │   │       └── UserDataProvider.java
+│   │   └── resources
+│   │       └── features
+│   │           ├── create_user.feature
+│   │           └── delete_user.feature
+│   └── logs
+│       └── (generated log files)
+└── pom.xml
+
+
+
+
 1. Create Maven Project
 2. Add Dependencies
 	Rest assured
@@ -31,5 +69,7 @@ Help> Marketplace> Install TestNG
 	Add Pluggins in pom
 		Maven surefire plugin
 		Maven compiler plugin
-
+12.Cucumber Setup
+	Dependencies	
+	
 	

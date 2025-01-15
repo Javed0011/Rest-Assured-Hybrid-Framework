@@ -8,3 +8,5 @@
 19:21:33.182 [main] INFO  api.test.UserTests - *************** User Created ***************
 19:42:31.184 [main] INFO  api.test.UserTests - *************** Creating User ***************
 19:42:32.249 [main] INFO  api.test.UserTests - *************** User Created ***************
+14:35:09.631 [main] INFO  api.test.UserTests2 - *************** Creating User ***************
+14:35:12.315 [main] INFO  api.test.UserTests2 - *************** User Created ***************
